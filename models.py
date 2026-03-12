@@ -15,4 +15,6 @@ class Transfer(BaseModel):
   
 class Deposit(BaseModel):
   amount: int
-  
+class Login(BaseModel):
+  email: str
+  password: str
