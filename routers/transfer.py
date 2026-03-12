@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException 
 from ..databasemodels import get_db
-from .models import Transfermoney
+from ..models import Transfermoney
 from . import models
 from sqlalchemy import Session
 
