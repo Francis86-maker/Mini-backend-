@@ -1,4 +1,4 @@
-from .models import UserCreate 
+from ..models import UserCreate 
 from fastapi import APIRouter, Depends, HTTPException 
 from ..databasemodels import get_db
 from sqlalchemy import Session
