@@ -1,5 +1,5 @@
 from sqlalchemy.orm import sessionmaker, relationship 
-from sqlalcmehy import Column, Integer, String, ForeignKey
+from sqlalchemy import Column, Integer, String, ForeignKey
 from database import declarative_base
 
 engine = create_engine(".sqlite:///blog.db", echo=True)
