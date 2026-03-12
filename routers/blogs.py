@@ -1,4 +1,4 @@
-from .models import BlogCreste
+from ..models import BlogCreste
 from ..databasemodels import get_db
 from fastapi import APIRouter, Depends, HTTPException 
 from sqlalchemy import Session
