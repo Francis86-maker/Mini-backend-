@@ -2,7 +2,7 @@ from sqlalchemy import Session
 from fastapi import APIRouter, Depends, HTTPException 
 from ..databasemodels import get_db
 from . import models 
-from .models import Login
+from ..models import Login
 
 router = APIRouter()
 
